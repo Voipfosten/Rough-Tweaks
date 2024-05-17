@@ -25,8 +25,8 @@ public class RoughItems {
 	public static final ItemHeal SALVE = new ItemHeal("salve", RoughConfig.salveHealCount, 5, RoughConfig.salveHealAmount, null, new ItemStack(Items.BOWL));
 	public static final ItemHeal PLASTER = new ItemHeal("plaster", RoughConfig.plasterHealCount, 10, RoughConfig.plasterHealAmount, null, null);
 	public static final ItemHeal BANDAGE = new ItemHeal("bandage", RoughConfig.bandageHealCount, 20, RoughConfig.bandageHealAmount, null, null);
-	public static final ItemHeal MEDIKIT = new ItemHeal("medikit", RoughConfig.medikitHealCount, 40, RoughConfig.medikitHealAmount, null, null);
-	public static final ItemHeal ENCHANTED_MEDIKIT = new ItemHeal("medikitEnchanted", RoughConfig.medikitEnchantedHealCount, 40, RoughConfig.medikitEnchantedHealAmount, new PotionEffect(MobEffects.ABSORPTION, 1200), null);
+	public static final ItemHeal MEDIKIT = new ItemHeal("medikit", RoughConfig.medikitHealCount, 20, RoughConfig.medikitHealAmount, null, null);
+	public static final ItemHeal ENCHANTED_MEDIKIT = new ItemHeal("medikitEnchanted", RoughConfig.medikitEnchantedHealCount, 20, RoughConfig.medikitEnchantedHealAmount, new PotionEffect(MobEffects.ABSORPTION, 1200), null);
 	
 	public RoughItems() {
 		MinecraftForge.EVENT_BUS.register(new RoughItemRegistry());
